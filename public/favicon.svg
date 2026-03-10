@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3776ab"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="512" height="512" rx="80" fill="#0f172a"/>
+
+  <!-- Left curly brace { -->
+  <path d="M180 120 C150 120 136 136 136 166 L136 226 C136 246 124 256 104 256
+           C124 256 136 266 136 286 L136 346 C136 376 150 392 180 392"
+        stroke="url(#g)" stroke-width="28" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+  <!-- Right curly brace } -->
+  <path d="M332 120 C362 120 376 136 376 166 L376 226 C376 246 388 256 408 256
+           C388 256 376 266 376 286 L376 346 C376 376 362 392 332 392"
+        stroke="url(#g)" stroke-width="28" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+  <!-- TA text -->
+  <text x="256" y="292" font-family="'Segoe UI', Arial, sans-serif" font-weight="800"
+        font-size="128" fill="white" text-anchor="middle" letter-spacing="-4">TA</text>
+</svg>
