@@ -4,34 +4,28 @@ import { Card } from './ui/card';
 
 const awards = [
   {
-    title: 'Banking Innovation Award 2023',
-    organization: 'FinTech Excellence Forum',
-    description: 'Recognized for pioneering Customer 360 Search System implementation',
+    title: 'Level 4 Gold Kite — Certificate of Appreciation',
+    organization: 'City Bank PLC · 2024',
+    description: 'Pioneered the first-ever MICR integration with the Core Banking System — reduced transaction processing time and ensured zero errors in cheque number inputs.',
   },
   {
-    title: 'Technical Excellence Award',
-    organization: 'Tech Banking Corp',
-    description: 'Outstanding contribution to microservices architecture and platform scalability',
+    title: 'Level 3 Blue Kite — Certificate of Appreciation',
+    organization: 'City Bank PLC · 2024',
+    description: 'Recognized for implementing RPA in Bulk A-Challan Payment automation to the NBR portal, significantly reducing manual workload.',
   },
   {
-    title: 'Best Engineering Team Award 2022',
-    organization: 'Regional Banking Summit',
-    description: 'Led team in developing award-winning transaction processing system',
+    title: 'Level 3 Blue Kite — Certificate of Appreciation',
+    organization: 'City Bank PLC · 2023',
+    description: 'Recognized for developing the SMS Gateway and Campaign Management System — introduced direct MNO integration reducing campaign costs by 30%.',
   },
 ];
 
 const publications = [
   {
-    title: 'Machine Learning Applications in Banking Fraud Detection',
-    venue: 'International Journal of FinTech Research',
-    year: '2023',
-    description: 'Co-authored research paper on AI-driven fraud prevention systems',
-  },
-  {
-    title: 'Microservices Best Practices for Banking Platforms',
-    venue: 'Tech Banking Conference Proceedings',
-    year: '2022',
-    description: 'Published case study on scalable architecture patterns',
+    title: 'Muzzle-Based Cattle Identification System Using Artificial Intelligence (AI)',
+    venue: 'International Conference on 4IR for Emerging Future',
+    year: 'Nov 2022',
+    description: 'Co-authored research on AI-driven muzzle-based cattle biometric identification. Contributors: Tareq Anam, Hasan Zohirul Islam, Safayet Khan, Sanjib Kumar Paul, Sheikh Imtiaz Rahi, Fahim Hossain, Md. Mahadi Hasan Sany, Md. Shahjahan Ali Sarker, Ismail Hossain Polas.',
   },
 ];
 

@@ -1,37 +1,55 @@
 import { motion } from 'motion/react';
-import { Code2, MessageSquare, Database, Wrench, Activity } from 'lucide-react';
+import { Code2, MessageSquare, Database, Wrench, Activity, Brain, Globe, FileText } from 'lucide-react';
 import { Card } from './ui/card';
 
 const skillGroups = [
   {
-    title: 'Backend',
+    title: 'Languages & Frameworks',
     icon: Code2,
     color: 'from-[#3776ab] to-blue-600',
-    skills: ['Python', 'Django', 'FastAPI', 'Flask', 'REST APIs'],
+    skills: ['Python', 'Django', 'Django REST Framework', 'FastAPI', 'Flask', 'JavaScript', 'Node.js', 'HTMX', 'Vue.js'],
   },
   {
     title: 'Messaging & Async',
     icon: MessageSquare,
     color: 'from-[#10b981] to-emerald-600',
-    skills: ['Celery', 'RabbitMQ', 'Redis', 'Async Processing'],
+    skills: ['Celery', 'RabbitMQ', 'Redis', 'VerneMQ', 'Async Processing'],
   },
   {
     title: 'Databases',
     icon: Database,
     color: 'from-blue-500 to-cyan-600',
-    skills: ['MySQL', 'MongoDB', 'Oracle', 'PostgreSQL', 'Query Optimization'],
+    skills: ['MySQL', 'MongoDB', 'OracleDB', 'PostgreSQL', 'MS SQL'],
   },
   {
-    title: 'DevOps',
+    title: 'DevOps & Containers',
     icon: Wrench,
     color: 'from-purple-500 to-pink-600',
-    skills: ['Docker', 'CI/CD', 'Nginx', 'Gunicorn', 'Linux'],
+    skills: ['Docker', 'Docker Swarm', 'Docker Compose', 'Podman', 'Nginx', 'Gunicorn', 'Uvicorn', 'CI/CD'],
   },
   {
-    title: 'Observability',
+    title: 'Observability & Search',
     icon: Activity,
     color: 'from-orange-500 to-red-600',
-    skills: ['OpenSearch', 'Elasticsearch', 'Logging', 'Monitoring', 'APM'],
+    skills: ['OpenSearch', 'Elasticsearch', 'Fluent Bit', 'Logstash', 'OpenSearch Dashboard'],
+  },
+  {
+    title: 'AI & ML',
+    icon: Brain,
+    color: 'from-rose-500 to-pink-600',
+    skills: ['TensorFlow', 'OpenCV', 'PaddlePaddle', 'MLOps', 'NLP', 'Facial Recognition'],
+  },
+  {
+    title: 'RPA & Automation',
+    icon: Globe,
+    color: 'from-teal-500 to-cyan-600',
+    skills: ['Selenium', 'RPA Development', 'NBR Portal Integration', 'NID Validation'],
+  },
+  {
+    title: 'Version Control & Docs',
+    icon: FileText,
+    color: 'from-slate-500 to-gray-600',
+    skills: ['Git', 'GitHub', 'GitLab', 'SVN', 'Markdown', 'Notion', 'Swagger'],
   },
 ];
 

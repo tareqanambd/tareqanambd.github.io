@@ -15,7 +15,7 @@ export function Hero() {
             Tareq Anam
           </h1>
           <p className="text-2xl md:text-3xl text-muted-foreground mb-6">
-            Senior Software Developer
+            Associate Manager · Sr Software Developer
           </p>
         </motion.div>
 
@@ -25,7 +25,7 @@ export function Hero() {
           transition={{ duration: 0.6, delay: 0.2 }}
           className="text-lg md:text-xl text-foreground/80 mb-12 max-w-2xl mx-auto"
         >
-          Building scalable microservices & banking platforms
+          Python · Microservices · Banking Platforms · DevOps · AI/ML
         </motion.p>
 
         <motion.div
@@ -61,7 +61,7 @@ export function Hero() {
             className="gap-2"
             onClick={() =>
               window.open(
-                "www.linkedin.com/in/tareq-anam-8a523965",
+                "https://www.linkedin.com/in/tareq-anam-8a523965",
                 "_blank",
               )
             }
@@ -73,10 +73,7 @@ export function Hero() {
             size="lg"
             variant="outline"
             className="gap-2"
-            onClick={() =>
-              (window.location.href =
-                "mailto:tareqanam@outlook.com")
-            }
+            onClick={() => (window.location.href = "mailto:tareqanam@outlook.com")}
           >
             <Mail className="w-5 h-5" />
             Email

@@ -31,7 +31,7 @@ export function Contact() {
           className="grid md:grid-cols-2 gap-6 mb-12"
         >
           <a
-            href="mailto:tareq.anam@example.com"
+            href="mailto:tareqanam@outlook.com"
             className="flex items-center gap-4 p-6 border-2 border-border rounded-lg hover:shadow-lg transition-all hover:border-[#3776ab]"
           >
             <div className="p-3 bg-gradient-to-br from-[#3776ab] to-blue-600 rounded-lg">
@@ -39,12 +39,12 @@ export function Contact() {
             </div>
             <div>
               <p className="font-semibold mb-1">Email</p>
-              <p className="text-sm text-muted-foreground">tareq.anam@example.com</p>
+              <p className="text-sm text-muted-foreground">tareqanam@outlook.com</p>
             </div>
           </a>
 
           <a
-            href="https://linkedin.com/in/tareqanam"
+            href="https://www.linkedin.com/in/tareq-anam-8a523965"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-4 p-6 border-2 border-border rounded-lg hover:shadow-lg transition-all hover:border-[#3776ab]"
@@ -54,12 +54,12 @@ export function Contact() {
             </div>
             <div>
               <p className="font-semibold mb-1">LinkedIn</p>
-              <p className="text-sm text-muted-foreground">linkedin.com/in/tareqanam</p>
+              <p className="text-sm text-muted-foreground">linkedin.com/in/tareq-anam-8a523965</p>
             </div>
           </a>
 
           <a
-            href="https://github.com/tareqanam"
+            href="https://github.com/tareqanambd"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-4 p-6 border-2 border-border rounded-lg hover:shadow-lg transition-all hover:border-[#10b981]"
@@ -69,7 +69,7 @@ export function Contact() {
             </div>
             <div>
               <p className="font-semibold mb-1">GitHub</p>
-              <p className="text-sm text-muted-foreground">github.com/tareqanam</p>
+              <p className="text-sm text-muted-foreground">github.com/tareqanambd</p>
             </div>
           </a>
 
@@ -79,7 +79,7 @@ export function Contact() {
             </div>
             <div>
               <p className="font-semibold mb-1">Location</p>
-              <p className="text-sm text-muted-foreground">San Francisco, CA</p>
+              <p className="text-sm text-muted-foreground">Narayanganj, Bangladesh</p>
             </div>
           </div>
         </motion.div>

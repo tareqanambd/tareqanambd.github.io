@@ -3,36 +3,45 @@ import { Briefcase } from 'lucide-react';
 
 const experiences = [
   {
-    company: 'Tech Banking Corp',
-    role: 'Senior Python Software Developer',
-    duration: 'Jan 2021 - Present',
+    company: 'The City Bank PLC',
+    location: 'Dhaka, Bangladesh',
+    role: 'Associate Manager, Sr Software Developer — DFS Tech',
+    duration: 'May 2022 – Present',
     highlights: [
-      'Architected and deployed microservices-based banking platform serving 2M+ users',
-      'Designed Customer 360 Search system using OpenSearch, reducing query time by 70%',
-      'Led development of Global Search Module with advanced filtering and real-time indexing',
-      'Implemented CI/CD pipelines with Docker, reducing deployment time from hours to minutes',
+      'Built Customer 360 Search module providing a unified 360° view of customers across all liability products — accounts, cards, deposits, and instruments — eliminating data silos.',
+      'Developed Global Search module for end-to-end traceability of operations across distributed microservices, improving audit readiness and issue resolution.',
+      'Delivered Government Securities Investment Management System (Nov 2024 – Dec 2025): bill/bond portfolio management, BPID workflows, RPA integrations, and automated coupon/maturity settlement.',
+      'Engineered City eMemo approval chain with role-based dynamic routing and integrated email approval, reducing internal workflow delays.',
+      'Dockerized CBL Achallan RPA service automating challan processing to the NBR portal, significantly reducing manual workload.',
+      'Developed NID validation service with secure APIs integrated with EC service for high-availability identity verification.',
+      'Built CBL SmartBoT — an AI-powered customer assistant using Flask, MongoDB, and Socket.IO with NLP support.',
+      'Delivered City Bank Ekhoni Account (Citytouch Integration): full microservices stack including BFF, OTP, NID OCR, Face Matching, CBS, and SSO services using Redis and OpenSearch.',
+      'Built FCM-based CityTouch Push Notification module with campaign scheduling and instant custom messaging.',
+      'Engineered Campaign Management System SMS delivery backend using Celery, RabbitMQ, and Redis — reducing costs by 42% via direct MNO integration.',
     ],
   },
   {
-    company: 'FinTech Solutions Ltd',
-    role: 'Python Backend Developer',
-    duration: 'Mar 2018 - Dec 2020',
+    company: 'adorsho praniSheba Ltd',
+    location: 'Dhaka, Bangladesh',
+    role: 'Sr Software Developer & DevOps',
+    duration: 'Jan 2020 – May 2022',
     highlights: [
-      'Built Merchant Transaction Portal handling 100K+ daily transactions',
-      'Developed asynchronous processing pipelines with Celery and RabbitMQ',
-      'Optimized database queries, improving API response time by 60%',
-      'Integrated third-party payment gateways and fraud detection systems',
+      'Led backend development for Pranisheba IoT Platform — an IoT-based cattle monitoring system with AI/ML models for facial recognition, health monitoring, and automation in rural cattle management.',
+      'Built JouthoKhamar Investment Platform: RESTful APIs for a digital cattle investment platform enabling investor-farmer collaboration with transparent profit-sharing.',
+      'Deployed Cattle Face Detection ML API as a production-ready REST API for cattle identification using facial recognition.',
+      'Tech stack: Python, Django REST Framework, Celery, Redis, VerneMQ, MongoDB, MySQL, TensorFlow, Docker, Nginx, Gunicorn, Vue.js.',
     ],
   },
   {
-    company: 'Digital Banking Inc',
-    role: 'Software Developer',
-    duration: 'Jun 2015 - Feb 2018',
+    company: 'shurjoMukhi Ltd',
+    location: 'Dhaka, Bangladesh',
+    role: 'Software Developer → Junior Software Developer',
+    duration: 'Jan 2017 – Dec 2019',
     highlights: [
-      'Developed RESTful APIs for mobile banking application',
-      'Implemented authentication and authorization systems with JWT',
-      'Created automated testing suite with 90% code coverage',
-      'Collaborated with frontend team to deliver seamless user experiences',
+      'Promoted for exceeding goals and enhancing company culture.',
+      'Enhanced backend for shurjomukhi PraniSheba mobile app integrating third-party IoT solutions (smaxTec) and FCM notifications. Stack: Python, Django REST Framework, Celery, RabbitMQ, MySQL.',
+      'Contributed to Bangladesh Ordnance Factory (BOF) ERP project — requirements gathering and SOP documentation.',
+      'Developed APIs and reports for Cash Management Decision Support System (CMDSS) for Trust Bank. Stack: PHP, Laravel 5, JavaScript, MS SQL, Node.js.',
     ],
   },
 ];
@@ -77,6 +86,7 @@ export function Experience() {
                         {exp.role}
                       </h3>
                       <p className="text-lg text-[#10b981] mt-1">{exp.company}</p>
+                      <p className="text-sm text-muted-foreground">{exp.location}</p>
                     </div>
                     <p className="text-sm text-muted-foreground mt-2 md:mt-0">
                       {exp.duration}

@@ -4,39 +4,50 @@ import { Card } from './ui/card';
 
 const education = [
   {
-    degree: 'Bachelor of Science in Computer Science',
-    institution: 'University of Technology',
-    year: '2011 - 2015',
-    highlights: ['Focus on Software Engineering and Database Systems', 'GPA: 3.8/4.0'],
+    degree: 'B.Sc in Information Technology',
+    institution: 'University of Information Technology & Sciences (UITS)',
+    year: '2011 – 2016',
+    highlights: ['CGPA: 3.26 / 4.0', 'Dhaka, Bangladesh'],
   },
   {
-    degree: 'Master of Science in Software Engineering',
-    institution: 'Institute of Advanced Computing',
-    year: '2015 - 2017',
-    highlights: ['Thesis: Scalable Microservices Architectures', 'Specialization in Distributed Systems'],
+    degree: 'Higher Secondary Certificate (HSC)',
+    institution: 'Narayanganj University College',
+    year: '2007 – 2009',
+    highlights: ['GPA: 4.50 / 5', 'Narayanganj, Bangladesh'],
+  },
+  {
+    degree: 'Secondary School Certificate (SSC)',
+    institution: 'B. M. Union High School',
+    year: '2002 – 2007',
+    highlights: ['GPA: 4.81 / 5', 'Narayanganj, Bangladesh'],
   },
 ];
 
 const certifications = [
   {
-    title: 'AWS Certified Solutions Architect',
-    issuer: 'Amazon Web Services',
+    title: 'Machine Learning Engineering for Production (MLOps) Specialization',
+    issuer: 'Coursera',
+    year: '2023',
+  },
+  {
+    title: 'Microservice Architecture',
+    issuer: 'PwC Bangladesh — City Bank Knowledge Development Initiative',
+    year: '2023',
+  },
+  {
+    title: 'Docker for Developers',
+    issuer: 'Educative.io',
     year: '2022',
   },
   {
-    title: 'Certified Kubernetes Administrator (CKA)',
-    issuer: 'Cloud Native Computing Foundation',
-    year: '2021',
+    title: 'Banking Foundation Program',
+    issuer: 'City Bank PLC',
+    year: '2022',
   },
   {
-    title: 'MongoDB Certified Developer',
-    issuer: 'MongoDB Inc.',
-    year: '2020',
-  },
-  {
-    title: 'Python Advanced Programming',
-    issuer: 'Python Institute',
-    year: '2019',
+    title: 'Web Development — NASSCOM IT-ITES SSC Certification',
+    issuer: 'Ernst & Young Global Services LLP',
+    year: '2016',
   },
 ];
 

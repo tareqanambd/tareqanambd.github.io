@@ -15,23 +15,21 @@ export function About() {
           </h2>
           <div className="prose prose-lg dark:prose-invert max-w-none">
             <p className="text-foreground/80 leading-relaxed mb-6">
-              I'm a Senior Python Software Developer with extensive experience in building and scaling 
-              microservices architectures for the fintech and banking industry. With a strong focus on 
-              backend systems, I specialize in designing robust APIs, implementing asynchronous processing 
-              pipelines, and optimizing database performance for high-throughput applications.
+              Experienced Software Developer with a strong background in Python, Flask, FastAPI, Celery,
+              RabbitMQ, and Docker, specializing in building scalable microservices and robust APIs for
+              the banking and fintech industry. Currently serving as Associate Manager &amp; Sr Software
+              Developer at The City Bank PLC, one of Bangladesh's leading private commercial banks.
             </p>
             <p className="text-foreground/80 leading-relaxed mb-6">
-              My expertise spans across the entire backend stack—from developing RESTful services with 
-              Django, FastAPI, and Flask, to implementing message queuing systems with RabbitMQ and Celery, 
-              to deploying containerized applications with Docker and CI/CD pipelines. I'm passionate about 
-              DevOps practices and believe in building systems that are not only functional but also 
-              observable, maintainable, and scalable.
+              I am passionate about streamlining development and deployment processes and am focused on
+              deepening expertise in DevOps practices, Kubernetes, and CI/CD pipelines. My work spans
+              critical banking systems — from Customer 360 Search and Government Securities platforms to
+              RPA automation services and AI-powered customer assistants.
             </p>
             <p className="text-foreground/80 leading-relaxed">
-              Throughout my career, I've delivered critical solutions for banking platforms, including 
-              customer search systems, merchant transaction portals, and global search modules that serve 
-              millions of users. I'm driven by solving complex technical challenges and continuously 
-              improving system architecture for performance and reliability.
+              Eager to leverage AI, ML, and data analytics to drive innovation and deliver high-impact
+              solutions. I have a published research paper in AI-based cattle identification and hold
+              multiple City Bank recognition awards for pioneering engineering contributions.
             </p>
           </div>
         </motion.div>
